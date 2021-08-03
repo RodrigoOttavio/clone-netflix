@@ -12,7 +12,7 @@
 /* elementos base */
 
 body {
-    background-color: var(--preta);
+    background: var(--preta);
     font-family:'Arial', Times, serif;
     color: white
 
@@ -21,9 +21,11 @@ body {
 header .container{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: center; 
     justify-content: space-between;
 }
+
+
 
 header .logo {
     margin-left: 5px;
@@ -48,7 +50,7 @@ header nav a:hover {
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%),url('/img/raya-fundo.jpg');
     
-    height: 480px;
+    height: 700px;
     background-size: cover;
 
     display: flex; /* direção padrão rown*/
@@ -106,3 +108,91 @@ header nav a:hover {
 .carrosel-filmes {
     margin-top: 5px;
 }
+
+footer .text-reset {
+    text-decoration: none;
+}
+
+.produto-cor:hover {
+    color: gray;
+}
+.teste{
+    background-color: black;
+    color: white;
+}
+
+.footer1 {
+    background-color: #141414;
+    color: white;
+    
+}
+
+/*footer {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    border: none;
+}
+
+footer .mapa-footer {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    margin-left: 15%;
+    margin-top: 10px;
+    
+}
+footer .redes-sociais {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    margin-left: 15%;
+    margin-top: 10px;
+    
+}
+
+footer .mapa-footer a {
+    color: black;
+    margin: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+footer .redes-sociais a {
+    color: black;
+    margin: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+footer .mapa-footer a:last-child {
+    color: #E50914;
+}
+
+footer .mapa-footer p {
+    margin-top: 25px;
+}
+
+footer .teste1 {
+    border: 1px  solid  white;
+    width: 100%;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    
+}
+footer .teste2 {
+    border: 1px  solid  black;
+    border-radius: 0px 0px 40px 40px;
+    width: 100%;
+    margin-top: 0px;
+    color: black;
+    text-align: center;
+    background-color: rgb(108, 108, 112);
+
+    
+}*/
