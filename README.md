@@ -4,5 +4,6 @@
 <p>A página esta concluída por enquanto mas irei adicionar melhorias como objetivo pessoal para adquirir prática e conhecimento.
 Status do projeto: ​e​m ​d​e​s​e​nvo​lv​im​en​to:warning: 
 
-link: https://codesandbox.io/s/long-bird-kz1mo
+Link: https://rodrigoottavio.github.io/clone-netflix/
+Sandbox: https://codesandbox.io/s/long-bird-kz1mo
 
